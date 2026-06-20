@@ -1,7 +1,7 @@
-**# Parkinson's Disease Analysis**
+# Study and Analysis of Parkinson's Disease
 
-## Project Overview
-This project uses Machine Learning techniques to analyze and predict Parkinson's Disease based on biomedical voice measurements.
+## Overview
+This project focuses on the study and analysis of Parkinson's Disease using Machine Learning techniques. The system analyzes biomedical voice measurements and other features to assist in early disease detection.
 
 ## Technologies Used
 - Python
@@ -9,17 +9,30 @@ This project uses Machine Learning techniques to analyze and predict Parkinson's
 - NumPy
 - Scikit-Learn
 - Matplotlib
-- Jupyter Notebook
+- Seaborn
+- Streamlit
+
+## Machine Learning Models
+- Support Vector Machine (SVM)
+- Random Forest
+- Neural Network
 
 ## Features
-- Data preprocessing
-- Exploratory Data Analysis
-- Feature selection
-- Disease prediction using Machine Learning
-- Performance evaluation
+- Data Preprocessing
+- Feature Extraction
+- Model Training
+- Disease Prediction
+- Data Visualization
+- Performance Evaluation
 
 ## Dataset
-The dataset contains biomedical voice measurements collected from individuals with and without Parkinson's Disease.
+UCI Parkinson's Disease Dataset
 
-## Outcome
-The model predicts whether a patient is likely to have Parkinson's Disease based on input features.
+## Results
+The Neural Network model achieved the highest performance, followed by Random Forest and SVM.
+
+## Future Scope
+- Real-time prediction
+- Deep Learning models
+- Wearable sensor integration
+- Clinical deployment
